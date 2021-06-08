@@ -7,3 +7,5 @@ export class Quote{
     this.quoteAuthor = quoteAuthor;
     }
 }
+
+// "heroku-postbuild": "ng build --prod",

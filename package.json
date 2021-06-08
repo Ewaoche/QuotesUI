@@ -2,11 +2,11 @@
     "name": "quotes",
     "version": "0.0.0",
     "scripts": {
+        "build": "ng build --prod",
         "ng": "ng",
         "start": "node server.js",
-        "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "heroku-postbuild": "ng build --prod"
+        "postinstall": "ng build --aot"
     },
     "private": true,
     "dependencies": {
